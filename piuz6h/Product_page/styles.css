@@ -1,0 +1,120 @@
+main {
+  height: 734px;
+  backdrop-filter: blur(100px);
+  background: linear-gradient(to bottom, black, #180738, #180738, black);
+}
+#imges {
+  width: 55%;
+  height: 734px;
+  float: left;
+  margin-left: 5%;
+}
+#sImg {
+  width: 200px;
+  height: 734px;
+  float: left;
+}
+
+#sImg1,
+#sImg2,
+#sImg3,
+#sImg4 {
+  height: 150px;
+  width: 200px;
+  border: blue solid 4px;
+}
+#sImg1 img,
+#sImg2 img,
+#sImg3 img,
+#sImg4 img {
+  height: 150px;
+  width: 200px;
+  object-fit: contain;
+  background-color: white;
+}
+#sImg1 {
+  margin-top: 50px;
+}
+
+#bImg {
+  height: 466px;
+  width: 800px;
+  float: right;
+  margin: 70px 20px 0 0;
+  border: blue solid 4px;
+  background: white;
+}
+#bImg img {
+  height: 466px;
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+}
+#buttons {
+  height: 80px;
+  width: 212px;
+  float: right;
+  position: relative;
+  right: 323px;
+  margin-top: 30px;
+}
+#buttons img {
+  border-radius: 50%;
+  background-color: white;
+}
+#right,
+#left {
+  height: 75px;
+  width: 75px;
+  border: 2px solid blue;
+}
+#right {
+  margin-left: 50px;
+}
+#text {
+  width: 35%;
+  height: 734px;
+  float: right;
+  color: white;
+  margin-right: 5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#paragraph {
+  height: 600px;
+  width: 600px;
+  margin-left: 40px;
+  margin-top: 75px;
+}
+
+#nazva {
+  width: 100%;
+  height: auto;
+  font-size: 40px;
+  color: white;
+  resize: none;
+  background: none;
+  border: none;
+}
+
+#list {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+#commercial_links {
+  height: 80px;
+  width: 600px;
+  position: absolute;
+  bottom: 59px;
+  font-size: 20px;
+  color: white;
+  resize: none;
+  background: none;
+  border: none;
+}
