@@ -11,7 +11,7 @@
   line-height: 60px;
   word-spacing: 20px;
   letter-spacing: 2px;
-  background-image: url("/img/headphones.main_page.png");
+  background-image: url("img/headphones.main_page.png");
   height: 550px;
   margin-bottom: 0;
 }
@@ -87,19 +87,19 @@
   color: white;
 }
 #prod1 {
-  background-image: url("/img/prod_1.png");
+  background-image: url("img/prod_1.png");
   background-repeat: no-repeat;
   background-size: cover;
   border: 2px solid grey;
 }
 #prod2 {
-  background-image: url("/img/prod_2.png");
+  background-image: url("img/prod_2.png");
   background-repeat: no-repeat;
   background-size: cover;
   border: 2px solid grey;
 }
 #prod3 {
-  background-image: url("/img/prod_3.png");
+  background-image: url("img/prod_3.png");
   background-repeat: no-repeat;
   background-size: cover;
   border: 2px solid grey;
